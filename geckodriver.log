@@ -1,0 +1,318 @@
+1737362301989	geckodriver	INFO	Listening on 127.0.0.1:60547
+1737362640031	geckodriver	INFO	Listening on 127.0.0.1:54419
+1737362835069	geckodriver	INFO	Listening on 127.0.0.1:56777
+1737362999690	geckodriver	INFO	Listening on 127.0.0.1:50222
+1737363003193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileX8ZyIZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737363008088	Marionette	INFO	Marionette enabled
+1737363008611	Marionette	INFO	Listening on port 50257
+WebDriver BiDi listening on ws://127.0.0.1:50223
+Read port: 50257
+1737363009320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 911))
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+1737366459346	Marionette	INFO	Stopped listening on port 50257
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileRoHeKZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737366162638	Marionette	INFO	Marionette enabled
+1737366163056	Marionette	INFO	Listening on port 52963
+WebDriver BiDi listening on ws://127.0.0.1:52941
+Read port: 52963
+1737366163407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737366186791	Marionette	INFO	Stopped listening on port 52963
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1737366451658	geckodriver	INFO	Listening on 127.0.0.1:53610
+1737366454715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53611" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofile9K53CM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737366456251	Marionette	INFO	Marionette enabled
+1737366456577	Marionette	INFO	Listening on port 53629
+Read port: 53629
+WebDriver BiDi listening on ws://127.0.0.1:53611
+1737366456847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737366476185	Marionette	INFO	Stopped listening on port 53629
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1737366920254	geckodriver	INFO	Listening on 127.0.0.1:51493
+1737366923308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51494" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileqhxNNf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737366924372	Marionette	INFO	Marionette enabled
+1737366924781	Marionette	INFO	Listening on port 51512
+WebDriver BiDi listening on ws://127.0.0.1:51494
+Read port: 51512
+1737366925126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+1737367390593	Marionette	INFO	Stopped listening on port 51512
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+ent
+Dynamically enable window occlusion 0
+1737367013974	Marionette	INFO	Marionette enabled
+1737367014350	Marionette	INFO	Listening on port 51781
+WebDriver BiDi listening on ws://127.0.0.1:51764
+Read port: 51781
+1737367014781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+1737367390549	Marionette	INFO	Stopped listening on port 51781
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1737367391993	geckodriver	INFO	Listening on 127.0.0.1:55121
+1737367395454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55122" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofilehy3jMW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737367396488	Marionette	INFO	Marionette enabled
+1737367396938	Marionette	INFO	Listening on port 55143
+WebDriver BiDi listening on ws://127.0.0.1:55122
+Read port: 55143
+1737367397351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://the-internet.herokuapp.com/entry_ad" ({})
+1737367703496	Marionette	INFO	Stopped listening on port 55143
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50870" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofile8ZYd9v"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737367687918	Marionette	INFO	Marionette enabled
+1737367688320	Marionette	INFO	Listening on port 50892
+WebDriver BiDi listening on ws://127.0.0.1:50870
+Read port: 50892
+1737367688806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737367704112	Marionette	INFO	Stopped listening on port 50892
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1737367768480	geckodriver	INFO	Listening on 127.0.0.1:51063
+1737367771826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51064" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileOgtVhW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737367772990	Marionette	INFO	Marionette enabled
+1737367773507	Marionette	INFO	Listening on port 51082
+WebDriver BiDi listening on ws://127.0.0.1:51064
+Read port: 51082
+1737367773887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+1737368132777	Marionette	INFO	Stopped listening on port 51082
+Dynamically enable window occlusion 1
+emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofile1aGgjW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737367938942	Marionette	INFO	Marionette enabled
+1737367939434	Marionette	INFO	Listening on port 63275
+WebDriver BiDi listening on ws://127.0.0.1:63260
+Read port: 63275
+1737367939909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+1737368132355	Marionette	INFO	Stopped listening on port 63275
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofile692NTU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737368097577	Marionette	INFO	Marionette enabled
+1737368098105	Marionette	INFO	Listening on port 63732
+WebDriver BiDi listening on ws://127.0.0.1:63717
+Read port: 63732
+1737368098616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737368134741	Marionette	INFO	Stopped listening on port 63732
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 127
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":30,"lineNumber":127,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":29,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":29,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch/<","sourceId":599,"lineNumber":569,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch","sourceId":599,"lineNumber":544,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"request","sourceId":599,"lineNumber":634,"columnNumber":33,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"execute","sourceId":599,"lineNumber":2643,"columnNumber":36,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"getData","sourceId":599,"lineNumber":1119,"columnNumber":40,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":27,"lineNumber":719,"columnNumber":54,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"getData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"execute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"request@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:127:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:127:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12|timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12|request@resource://services-common/kinto-http-client.sys.mjs:634:33|execute@resource://services-common/kinto-http-client.sys.mjs:2643:36|getData@resource://services-common/kinto-http-client.sys.mjs:1119:40|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54|
+  - prototype Object
+console.warn: services.settings: main/urlbar-persisted-search-terms sync interrupted by shutdown
+console.warn: services.settings: main/search-config-icons sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/pioneer-content-v1 getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1737368163112	geckodriver	INFO	Listening on 127.0.0.1:54661
+1737368166395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54662" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileyRnDtb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737368167402	Marionette	INFO	Marionette enabled
+1737368167760	Marionette	INFO	Listening on port 54678
+WebDriver BiDi listening on ws://127.0.0.1:54662
+Read port: 54678
+1737368168232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+1737368312416	Marionette	INFO	Stopped listening on port 54678
+Dynamically enable window occlusion 1
+1737368362578	geckodriver	INFO	Listening on 127.0.0.1:55116
+1737368365614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55117" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofiledCMCCy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737368368908	Marionette	INFO	Marionette enabled
+1737368370023	Marionette	INFO	Listening on port 55144
+Read port: 55144
+WebDriver BiDi listening on ws://127.0.0.1:55117
+1737368370226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737368479059	Marionette	INFO	Stopped listening on port 55144
+Dynamically enable window occlusion 1
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 170))
+1737368485972	geckodriver	INFO	Listening on 127.0.0.1:55452
+1737368489167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileKOgIym"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737368490297	Marionette	INFO	Marionette enabled
+1737368490657	Marionette	INFO	Listening on port 55468
+WebDriver BiDi listening on ws://127.0.0.1:55453
+Read port: 55468
+1737368491152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+1737370076922	Marionette	INFO	Stopped listening on port 55468
+Dynamically enable window occlusion 1
+1737377827156	geckodriver	INFO	Listening on 127.0.0.1:57308
+1737377830288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57309" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofile90Q7pP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737377832269	Marionette	INFO	Marionette enabled
+1737377832705	Marionette	INFO	Listening on port 57324
+WebDriver BiDi listening on ws://127.0.0.1:57309
+Read port: 57324
+1737377833258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+1737378119825	Marionette	INFO	Stopped listening on port 57324
+Dynamically enable window occlusion 1
+emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofilerOXdoY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737378079708	Marionette	INFO	Marionette enabled
+1737378080136	Marionette	INFO	Listening on port 55482
+WebDriver BiDi listening on ws://127.0.0.1:55468
+Read port: 55482
+1737378080788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 911))
+1737378119613	Marionette	INFO	Stopped listening on port 55482
+Dynamically enable window occlusion 1
+1737378132257	geckodriver	INFO	Listening on 127.0.0.1:55604
+1737378135282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55605" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileCvcleJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737378136334	Marionette	INFO	Marionette enabled
+1737378136643	Marionette	INFO	Listening on port 55620
+WebDriver BiDi listening on ws://127.0.0.1:55605
+Read port: 55620
+1737378137075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/entry_ad" ({})
+1737378374106	Marionette	INFO	Stopped listening on port 55620
+Dynamically enable window occlusion 1
+1737381281145	geckodriver	INFO	Listening on 127.0.0.1:58486
+1737381284352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofile8RoMVX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737381285530	Marionette	INFO	Marionette enabled
+1737381285909	Marionette	INFO	Listening on port 58505
+WebDriver BiDi listening on ws://127.0.0.1:58487
+Read port: 58505
+1737381286359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737381298955	Marionette	INFO	Stopped listening on port 58505
+Dynamically enable window occlusion 1
+1737381610882	geckodriver	INFO	Listening on 127.0.0.1:63822
+1737381614153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63823" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileUyfVLr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737381615624	Marionette	INFO	Marionette enabled
+1737381616357	Marionette	INFO	Listening on port 63839
+WebDriver BiDi listening on ws://127.0.0.1:63823
+Read port: 63839
+1737381616604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737381693038	Marionette	INFO	Stopped listening on port 63839
+Dynamically enable window occlusion 1
+1737381698988	geckodriver	INFO	Listening on 127.0.0.1:64026
+1737381702372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofilemSzTlv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737381706655	Marionette	INFO	Marionette enabled
+1737381707469	Marionette	INFO	Listening on port 64049
+WebDriver BiDi listening on ws://127.0.0.1:64027
+Read port: 64049
+1737381707811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+1737381785105	geckodriver	INFO	Listening on 127.0.0.1:64256
+1737381788698	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofileIfFF2p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737381791206	Marionette	INFO	Marionette enabled
+1737381792380	Marionette	INFO	Listening on port 64272
+WebDriver BiDi listening on ws://127.0.0.1:64257
+Read port: 64272
+1737381793312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737381898207	Marionette	INFO	Stopped listening on port 64272
+Dynamically enable window occlusion 1
+1737382082721	geckodriver	INFO	Listening on 127.0.0.1:58727
+1737382086089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58728" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\monik\\AppData\\Local\\Temp\\rust_mozprofilemTz99c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737382087138	Marionette	INFO	Marionette enabled
+1737382087589	Marionette	INFO	Listening on port 58743
+WebDriver BiDi listening on ws://127.0.0.1:58728
+Read port: 58743
+1737382088102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1737382098946	Marionette	INFO	Stopped listening on port 58743
+Dynamically enable window occlusion 1
