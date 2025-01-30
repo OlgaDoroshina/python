@@ -1,13 +1,8 @@
-from time import sleep
-from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.color import Color
 from selenium.common.exceptions import TimeoutException
-
 class BasePage:
     def __init__(self, driver):
         self.driver = driver
@@ -28,7 +23,6 @@ class LoginPage(BasePage):
         self.driver.find_element(*self.username_locator).send_keys("standard_user")
         self.driver.find_element(*self.password_locator).send_keys("secret_sauce")
         self.driver.find_element(*self.login_button_locator).click()
-
 
 class ProductsPage(BasePage):
     def __init__(self, driver):
@@ -68,7 +62,6 @@ class PersonalInfoPage(BasePage):
         self.driver.find_element(*self.last_name_locator).send_keys(last_name)
         self.driver.find_element(*self.postal_code_locator).send_keys(postal_code)
         self.driver.find_element(*self.continue_button_locator).click()
-
 class OverviewPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)

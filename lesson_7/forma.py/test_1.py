@@ -1,19 +1,17 @@
-from time import sleep
+import pytest
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.color import Color
 from registration_page import RegistrationPage
 
-
+@pytest.fixture(scope="module")
 def driver():
-    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+    driver = webdriver.Chrome()
     yield driver
     driver.quit()
-
 
 def test_registration(driver):
     registration_page = RegistrationPage(driver)
@@ -33,17 +31,14 @@ def test_registration(driver):
     submit_button = ChromeDriverManager(driver, 10).until(
         EC.visibility_of_element_located((By.CSS_SELECTOR, ".btn.btn-outline-primary.mt-3"))
     )
-    driver.execute_script("arguments[0].scrollIntoView(true);", submit_button)  # Scroll to the button
+    driver.execute_script("arguments[0].scrollIntoView(true);", submit_button)  
     driver.execute_script("arguments[0].click();", submit_button)
-
-
 
     red = '#842029'  # '#FF0000'
     green = '#0f5132'  # '#008000'
 
     check_color_by_class(registration_page, "alert-danger", red)
     check_color_by_class(registration_page, "alert-success", green)
-
 
 def check_color_by_class(page, class_name, expected_color):
     field = page.get_element_by_class(class_name)

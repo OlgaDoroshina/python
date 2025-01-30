@@ -1,12 +1,8 @@
-from time import sleep
-from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-
-
+from selenium.webdriver.support.color import Color
 class RegistrationPage:
     def __init__(self, driver):
         self.driver = driver
@@ -24,7 +20,6 @@ class RegistrationPage:
         self.driver.find_element(By.CSS_SELECTOR, "[name='country']").send_keys(country)
         self.driver.find_element(By.CSS_SELECTOR, "[name='job-position']").send_keys(job_position)
         self.driver.find_element(By.CSS_SELECTOR, "[name='company']").send_keys(company)
-
 
     def get_element_by_class(self, class_name):
         element = ChromeDriverManager(self.driver, 5).until(

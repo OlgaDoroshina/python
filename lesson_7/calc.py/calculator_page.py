@@ -1,11 +1,9 @@
-from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import pytest
-
 class CalculatorPage:
     def __init__(self, driver):
         self.driver = driver
