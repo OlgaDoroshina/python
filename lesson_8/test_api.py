@@ -4,7 +4,7 @@ from faker import Faker
 
 fake = Faker()
 
-url = "https://todo-app-sky.herokuapp.com"
+url = "https://ru.yougile.com/api-v2#/"
 
 api = SkyToDo(url)
 
