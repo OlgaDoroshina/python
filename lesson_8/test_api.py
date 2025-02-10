@@ -4,7 +4,7 @@ base_url = "https://yougile.com"
 
 ## Авторизация
 my_login = 'olga27.skypro@gmail.com'
-my_password = 'Olgasky'
+my_password = 'Olga27sky'
 
 # Получить список компаний
 def test_auth():
