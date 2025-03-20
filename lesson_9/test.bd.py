@@ -6,7 +6,7 @@ db = create_engine(db_connection_string)
 
 def test_insert():
     db = create_engine(db_connection_string)
-    sql = text("insert into users(\"user_email\") values (:new_user)")
+    sql = text("insert into users(\"user_name\") values (:new_user)")
     rows = db.execute(sql, new_user = 'olga27')
     assert rows[-1] == 'olga27'
 
