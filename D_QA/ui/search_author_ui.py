@@ -6,32 +6,18 @@ import allure
 @allure.description("Тестирование поля поиска по автору на сайте Читай-город.")
 class SearchByAuthor:
     """Класс для выполнения поиска книг по автору на сайте Читай-город."""
-
-    def __init__(self, author_name: str):
-        """
-            Инициализация класса SearchByAuthor.
-            :param author_name: Имя автора, книги которого необходимо найти
-        """
-        self.author_name = author_name
-
-    @allure.step("Поиск книги по автору")
-    def search_by_author(self, driver: webdriver.Chrome):
-        """
-            Поиск книг по имени автора на сайте Читай-город.
-            :param driver: Экземпляр драйвера Selenium (в данном случае Chrome)
-            :raises Exception: если не найти элементы поиска на странице
-        """
-        try:
-            # Ввод имени автора в строку поиска
-            search_input = driver.find_element(By.NAME, "phrase")
-            search_input.send_keys(self.author_name)
-
-            # Клик по кнопке поиска
-            search_button = driver.find_element(
-                By.CSS_SELECTOR, "button[aria-label='Искать']")
+    def __init__(self, driver):
+        self.driver = driver
+        self.search_field = (
+            By.XPATH, '//input[@class="header-search__input"]'
+            )
+    def search_by_author(self, author_name: str) -> None:
+        search_button = self.driver.find_element(
+            By.CSS_SELECTOR, "button[aria-label='Искать']"
+            )
+        with allure.step("Выбор поисковой строки и ввод имени автора."):
+            webdriver(self.driver, 2).until(
+                EC.presence_of_element_located(self.search_field)
+            ).send_keys(author_name)
+        with allure.step("Клик по кнопке поиска."):
             search_button.click()
-
-        except Exception as e:
-            allure.attach(str(e), name="error",
-                          attachment_type=allure.attachment_type.TEXT)
-            raise
