@@ -2,7 +2,7 @@ import pytest
 import allure
 from pages.config import SEARCH_TERMS
 from pages.main_pages import MainPage
-from pages.CartPage import CartPage
+from QA_Diplome.pages.cart_page import CartPage
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -85,21 +85,18 @@ def test_get_empty_cart(browser):
 @allure.description("Этот тест проверяет, что товар из корзины удаляется корректно.")
 @allure.feature("DELETE")
 @allure.severity("BLOCKER")
-def test_delete_from_card():
-        
-        with allure.step ("Запустить браузер Chrome"):
-            driver = webdriver.Chrome() 
-        
-        with allure.step ("Перейти на сайт Читай-город"):
-           cart_page=driver.get(self.URL)  
+def test_delete_from_cart():
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    try:
+        cart_page = CartPage(driver)
+        book_title = "Ветреный"
 
-        with allure.step ("Удалить книгу из корзины"):
-            book_title = "Ветреный"
+        with allure.step("Удалить книгу из корзины"):
             cart_page.delete_from_cart(book_title)
-            results_del = cart_page.driver.find_elements(By.CSS_SELECTOR, 'div.product-title__head')
+            results_del = driver.find_elements(By.CSS_SELECTOR, 'div.product-title__head')
 
-        with allure.step ("Проверить, что товар больше не существует в списке"):
+        with allure.step("Проверить, что товар больше не существует в списке"):
             assert all(book_title not in element.text for element in results_del), f"Книга '{book_title}' все еще в корзине."
-        
-        with allure.step("Закрыть браузер"):
-            driver.quit()
+    finally:
+        driver.quit()
